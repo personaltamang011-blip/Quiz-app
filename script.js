@@ -1,11 +1,11 @@
 const questions = [
     {
-        question: "what is the answer after  twenty multiplied  by sixteen hundred?",
+        question: "बुद्धिमान् मानिसको घरमा उत्तम भोजन र तेल हुन्छ ?",
         answers: [
-            { text: "five thousand", correct: false },
-            { text: "thirty two thousand", correct: true },
-            { text: "ten thousand", correct: false },
-            { text: "fifteen thousand", correct: false },
+            { text: "1.हितोपदेश १ः२०", correct: false },
+            { text: "2.हितोपदेश २१ः२०", correct: true },
+            { text: "3.हितोपदेश २१ः२", correct: false },
+            { text: "4.हितोपदेश २०१ः२०", correct: false },
         ]
     },
     {
@@ -24,6 +24,16 @@ const questions = [
             { text: "fifteen thousand", correct: false },
             { text: "ten thousand", correct: false },
             { text: "sixty four thousand", correct: true },
+        ]
+    },
+    {
+        question: "बुद्धिमान् मानिसको घरमा उत्तम भोजन र तेल हुन्छ ?",
+        answers: [
+            { text: "हितोपदेश २१ः२०", correct: true },
+            { text: "हितोपदेश १ः२०", correct: false },
+            {
+                text: "हितोपदेश २१ः२", correct: false },
+            { text: "हितोपदेश २०१ः२०", correct: false },
         ]
     },
     {
@@ -114,7 +124,7 @@ function handleNextButton() {
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
         handleNextButton();
-    } else{
+    } else {
         startQuiz();
     }
 });
