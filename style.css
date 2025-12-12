@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: peachpuff;
+    background: #ff9393;
 }
 .app{
     background: #fff;
@@ -17,44 +17,41 @@ body{
 }
 .app h1{
     font-size: 25px;
-    color: peru;
+    color: #ff9393 ;
     font-weight: 600;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
-    text-indent: 25%;
 }
 .quiz{
     padding: 20px 0;
 }
 .quiz h2{
     font-size: 18px;
-    color: peru;
+    color: #ff9393;
     font-weight: 600;
-    text-indent: 10%;
 }
 .btn{
     background: #fff;
-    color: black;
+    color: #222;
     font-weight: 500;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #222;
     padding: 10px;
     margin: 10px 0;
-    text-align: left;
+    text-align: center;
     background: 4px;
     cursor: pointer;
     transition: all 0.3s;
-    text-indent: 40%;
 }
 .btn:hover:not([disabled]){
-    background: orangered;
+    background: yellowgreen;
     color: #fff;
 }
 .btn:disabled{
     cursor: no-drop;
 }
 #next-btn{
-    background: orangered;
+    background: yellowgreen;
     color: #fff;
     font-weight: 500;
     width: 150px;
