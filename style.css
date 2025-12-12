@@ -6,14 +6,18 @@
 }
 body{
     background: #ff9393;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 .app{
     background: #fff;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
     border-radius: 10px;
+    margin: 20px auto;
     padding: 30px;
+
 }
 .app h1{
     font-size: 25px;
